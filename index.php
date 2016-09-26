@@ -33,7 +33,7 @@
 							<div class="ch-info">
 								<div class="ch-info-front ch-img-0"></div>
 								<div class="ch-info-back">
-									<h3>Cadastrar Unidade</h3>
+									<h3>Cadastrar UnidadeX</h3>
                                                                         <p><a href="inner.php">Clique Aqui</a></p>
 								</div>	
 							</div>
