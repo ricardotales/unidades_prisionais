@@ -84,24 +84,51 @@
 		</div><!-- end work_nav --> 
 		<h1 class="title">Cadastrar Unidade</h1>
 	    </div>		
-	</section><!-- end top -->
-        
+	</section><!-- end top -->                      
 	<section class="wrapper">
             <div class="content">
-
-        <div class="dividir-pagina">                
-            <form  id="cadastro" name="cadastro" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">  
-           
+        <!--<div class="dividir-pagina">  -->              
+            <form  id="cadastro" name="cadastro" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"> 
                     <div style="position:relative; margin-top:0px;"align="center">
-                    
-                        <p><h4>Primeiro passo: <i>Adicionar o endereço completo da unidade no campo abaixo.</i></h4></p>                    
-                    
-                        <p><h4>Para localizar a unidade, digite no campo abaixo o endereço desejado.</h4></p>
-                                
-                        Localizar Região:
+                        <ul class="demo-3">
+                            <li>
+                                <figure>
+                                    <img src="img/dica_1.png" alt=""/>
+                                    <figcaption>
+                                        <h2>Dica #1</h2>
+                                        <p>Para iniciar a busca pela Unidade Prisional, adicionar o endereço COMPLETO no campo abaixo.</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="demo-3">
+                            <li>
+                                <figure>
+                                    <img src="img/dica_2.png" alt=""/>
+                                    <figcaption>
+                                        <h2>Dica #2</h2>
+                                        <p>Para iniciar a busca pela Unidade Prisional, adicionar o endereço COMPLETO no campo abaixo.</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>    
+                        <ul class="demo-3">
+                            <li>
+                                <figure>
+                                    <img src="img/dica_3.png" alt=""/>
+                                    <figcaption>
+                                        <h2>Dica #3</h2>
+                                        <p>Para iniciar a busca pela Unidade Prisional, adicionar o endereço COMPLETO no campo abaixo.</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>                        
+                    </div> 
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+                    <div style="position:relative; margin-top:0px;"align="center">                                                                                                                                                   
+                        <label class="control-label">Digite o endereço da Unidade:</label>
                         <input type="text" class="form_contato" id="address" style="width:300px; margin-right:15px;"/>      
                         <input type="button" value="Localizar Endereço" onClick="geocode()" class="btn btn-success"/>
- 
                     </div>                
                     <div style="position:relative; margin-top:20px;"align="center">
                         <div id="map_canvas" style="width:40%; height:400px"></div>
@@ -174,7 +201,7 @@
                     
             </form>
             
-            </div><!-- end content -->  
+            <!--</div><!-- end content -->   -->
             <div class="row footer">
                 <a href="http://www.porfolio">Ricardo Tales</a> <span>Copyright &copy; 2016 All right reserved</span>
             </div>            
